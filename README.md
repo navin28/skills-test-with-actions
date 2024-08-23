@@ -49,6 +49,8 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 1. **Commit changes**.
 1. Wait about 20 seconds and then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step.
 
+Like the upload action to send artifacts to the storage, you can use the download action to download these previously uploaded artifacts from the `build` job: [`actions/download-artifact`](https://github.com/actions/download-artifact). For brevity, we'll skip that step for this course.
+
 <footer>
 
 <!--
